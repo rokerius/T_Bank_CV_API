@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+pytest
+python-multipart
+ultralytics>=8.0.0
+opencv-python-headless
+torch
+torchvision
+
+ultralytics

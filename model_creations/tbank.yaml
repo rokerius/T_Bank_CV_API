@@ -1,0 +1,6 @@
+path: /Users/rokerius/VSCodeProjects/T_Bank_CV_API/T_Bank_CV_API/data/splits
+train: images/train
+val: images/val
+
+names:
+  0: tbank_logo
