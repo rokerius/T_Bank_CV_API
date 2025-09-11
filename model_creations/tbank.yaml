@@ -1,6 +1,7 @@
-path: /Users/rokerius/VSCodeProjects/T_Bank_CV_API/T_Bank_CV_API/data/splits
+path: C:\Users\roker\VSCode_projects\T_Bank_CV_API\T_Bank_CV_API\data\splits # сюда нужно вставить путь для ваших выборок
 train: images/train
 val: images/val
+test: images/test
 
 names:
-  0: tbank_logo
+  0: logo

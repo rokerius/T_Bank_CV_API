@@ -7,7 +7,7 @@ from ultralytics import YOLO
 
 # Загружаем модель один раз при старте приложения
 # (best.pt должен быть в корне проекта или загружен по ссылке в README)
-MODEL_PATH = "weights/best.pt"
+MODEL_PATH = "weights/morty_4000_model.pt"
 
 try:
     model = YOLO(MODEL_PATH)
@@ -24,12 +24,7 @@ def load_image(image_bytes: bytes) -> np.ndarray:
 
 
 def detect_logos(image_bytes: bytes):
-    """
-    Запуск модели YOLO для поиска логотипов Т-Банка
-    Возвращает список словарей с bbox
-    """
     if model is None:
-        # Фоллбек — если веса не подгрузились
         return []
 
     image = load_image(image_bytes)

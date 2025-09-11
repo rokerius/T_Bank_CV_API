@@ -1,5 +1,6 @@
 data
 venv
+env
 runs
 model_creations/yolov8m.pt
 model_creations/yolov8n.pt
