@@ -109,7 +109,7 @@ docker-compose up --build
 
 
 ### Оперативная связь со мной
-@rokeris
+ТГ: @rokerius
 
 
 
