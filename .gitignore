@@ -6,3 +6,4 @@ model_creations/yolov8m.pt
 model_creations/yolov8n.pt
 model_creations/yolov8s.pt
 __pycache__
+.DS_Store
